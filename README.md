@@ -42,14 +42,6 @@ This project is useful for learning:
 6. Trains `LinearRegressionFromScratch`.
 7. Prints MAE, RMSE, R2, and sample predictions.
 
-## Quick Run
-Use your Python interpreter to run each step:
-
-```bash
-/Users/PTTA/Documents/anaconda/miniconda3/bin/python FirebaseData.py
-/Users/PTTA/Documents/anaconda/miniconda3/bin/python MainTestModel.py
-```
-
 ## Notes
 - If train output becomes `NaN`, the learning rate may be too high or features are not scaled.
 - Current baseline uses only `Humidity` to predict `Temperature`, so performance can be improved by adding features from `Time`.
